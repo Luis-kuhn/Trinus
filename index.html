@@ -11,17 +11,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <meta name="viewport" content="width=device-width"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css'><link rel="stylesheet" href="./style.css">
     <script src="./js/script.js"></script>
-
+    <link rel="shortcut icon" href="./img/purpleLogoIco.ico" />
+    <title>Trinus Viagens</title>
 </head>
 <body>
   <!-- Carrossel img -->
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-
         <div class="carousel-inner">
 
             <div class="carousel-item active">
-
-                <img src="./img/av2.jpg" class="d-block w-100" style="height: 90vh;" alt="...">
+                
+                <img src="./img/av2.jpg" class="d-block w-100" style="height: 90vh; background: rgba(38, 45, 100, 0.75);" alt="...">
 
                 <div id="topImagetext"class="carousel-caption d-flex justify-content-center">
 
@@ -31,7 +31,6 @@
 
                 <a href="./src/cadastro.html" id="btnCadastrar"> <button> Cadastrar-se</button></a>
                 <p> Já é cadastrado? <a href="./src/login.html">Login</a></p>
-                <!-- <img src="../img/scroll.gif" > -->
 
                 </div>
 
@@ -46,7 +45,7 @@
 <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="menu" >
     <a href="./index.html"><img src="./img/LogoDeLado.png" alt="Logo" style="width: 20vh;"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <i class="fas fa-bars" id="menuMobile"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
@@ -71,16 +70,26 @@
     </div>
   </nav>
 
-<div id="container1" >
-    <div class="container">
-<span id="rateMe1"></span>
-</div>
+
+
 
 
  <!-- cads carosel-->
 
+
+<div id="container1" >
+
+<div class="mainText">
+
+  <h5>APROVEITE</h5>
+  <h2>Promoções</h2>
+
+  <p>Os melhores hotéis e resorts você encontra aqui com preços imperdíves</p>
+
+</div>
+
  <div class="main-gallery js-flickity"
- data-flickity-options='{ "cellAlign": "left", "contain": true, "initialIndex": 3}'>
+ data-flickity-options='{ "cellAlign": "center", "contain": true, "initialIndex": 3}'>
 
         <div class="card"  >
             <a href="./src/subaba1.html" class="fill-div"></a>
@@ -189,7 +198,68 @@
         </div>
 
  </div>
-<div style="height: 10vh;"></div>
+
+ <div style="height: 10vh;"></div>
+
+</div>
+ <div class="tutorialCards">
+  <div id="container1" >
+  <h1>É muito fácil utilizar a Trinus para viajar, saiba mais:</h1>
+
+  <div class="cardsContainer">
+    <div class="card"  >
+      <div class="card-body">
+          <!-- estrelas -->
+          <i class="fas fa-user fa-2x"></i>
+          <h4 class="card-title">Preferência</h4>
+          <p class="card-text">A Trinus conquistou o coração de milhões de usuários ao redor do mundo.</p>
+      </div>
+    </div>
+
+    <div class="card"  >
+      <div class="card-body">
+          <!-- estrelas -->
+          <i class="fas fa-plane fa-2x"></i>
+          <h4 class="card-title">Agências</h4>
+          <p class="card-text">Parceria com diversas agências internacionais com ótima qualidade.</p>
+      </div>
+    </div>
+
+    <div class="card"  >
+      <div class="card-body">
+          <!-- estrelas -->
+          <i class="far fa-credit-card fa-2x"></i>
+          <h4 class="card-title">Pagamento</h4>
+          <p class="card-text">O pagamento é realizado de forma segura e sem custos adicionais.</p>
+      </div>
+    </div>
+
+    <div class="card"  >
+      <div class="card-body">
+          <!-- estrelas -->
+          <i class="fas fa-mobile-alt fa-2x"></i>
+          <h4 class="card-title">Aplicativo</h4>
+          <p class="card-text">Baixe o nosso aplicativo para acompanhar suas viagens de onde estiver.</p>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+</div>
+<div id="container1" >
+
+
+<div class="mainText">
+
+  <h5>NÃO PERCA</h5>
+  <h2>Bombinhas</h2>
+
+  <p>Os melhores hotéis e resorts de bombinhas você encontra aqui com preços imperdíves</p>
+
+</div>
+
+
 
 <!-- cards hotel -->
 
@@ -367,24 +437,70 @@
  </div>
 
 
-<footer class="footer navbar-fixed-bottom" id="footer">
-    <div id="rede">
-        <a href="./index.html"><img src="./img/TRINUS.png" alt="Trinus Logo"></a>
-        <div id="redeSocial">
-            <a class="btnRede" href="https://www.instagram.com/?hl=pt-br"><i class="fab fa-instagram fa-3x " ></i></a>
-            <a class="btnRede" href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-3x "></i></a>
-            <a class="btnRede" href="https://www.youtube.com/"><i class="fab fa-youtube fa-3x "></i></a>
+<footer>
 
-        </div>
+    <div id="container1">
 
-    </div>
-    <div id="tell">
-        <h1>Entre em contato conosco</h1>
-        <p><u><a href=”tel:+5502122222222″>+55(0)21 – 2222-2222</a> | <a href=”mailto:viagem@trinus.com″>viagem@trinus.com</a></u></p>
-        <a href="#">Sair</a>
-    </div>
-    <div id="cacto">
-        <img src="./img/cactoBranco.png" alt="Trinus Logo">
+      <div class="footerColumns">
+
+        <img src="./img/LogoDeLado.png">
+
+        
+
+      </div>
+
+      <div class="footerColumns">
+        
+        <h3>Sobre nós</h3>
+
+        <div class="whiteStrip"></div>
+
+        <i class="fas fa-map-marker-alt"></i><h6>R. São Paulo, 3250</h6> <br>
+        <i class="fas fa-map-marker-alt" style="color: rgba(35, 33, 75, 1)"></i><h6> CEP 89030  000 </h6><br>
+        <i class="fas fa-map-marker-alt" style="color: rgba(35, 33, 75, 1)"></i><h6>  Blumenau - SC - Brasil </h6><br><br>
+          
+        <i class="fas fa-phone"></i><h6> +55 (47) 3221-6000 </h6><br><br>
+          
+        <i class="far fa-envelope"></i><h6>cstic@furb.br</h6> <br>
+        <i class="far fa-envelope" style="color: rgba(35, 33, 75, 1)"></i><h6>www.furb.br/cstic</h6>
+
+      </div>
+
+      <div class="footerColumns" id="lastNews">
+
+        <h3>Últimas Notícias</h3>
+
+        <div class="whiteStrip"></div>
+
+        <i class="fas fa-rss"></i><h6>Novas promoções de estadia para Dubai!</h6>
+
+        <br>
+
+        <i class="fas fa-rss"></i><h6>Novas promoções de viagens para Egito!</h6>
+
+        <br>
+
+        <i class="fas fa-rss"></i><h6>Novos serviços!</h6>
+
+      </div>
+
+      <div class="footerColumns">
+
+        <h3>Fale Conosco</h3>
+
+        <div class="whiteStrip"></div>
+
+        <i class="fab fa-twitter fa-2x"></i> <h6>@TrinusViagens</h6>
+
+        <br><br>
+
+        <i class="fab fa-facebook fa-2x "></i></i> <h6>TrinusViagens</h6>
+
+        <br><br>
+
+        <i class="fab fa-youtube fa-3x "></i> <h6> TrinusViagens</h6>
+
+      </div>
 
     </div>
 

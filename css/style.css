@@ -552,7 +552,7 @@ h1 {
 .textoPhone {
   display: block;
   width: 100%;
-  height auto;
+  height: auto;
   align-items: center;
   text-align: center;
 }
@@ -575,5 +575,228 @@ h1 {
   margin-left: auto;
   margin-right: auto;
 }
+
+}
+
+
+
+.navbar-light .navbar-toggler {
+
+    border-color: transparent;
+    margin-top: 0;
+    width: inherit;
+    margin-right: 10px;
+
+}
+
+#menuMobile {
+
+    color: white;
+
+}
+
+#navbarNavDropdown ul li a {
+
+    font-size: 20px !important;
+
+}
+
+#carouselExampleCaptions button{
+
+    font-size: 20px;
+
+}
+
+.mainText {
+
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: -30px;
+
+}
+
+.mainText h5 {
+
+    color: #c3c3c3;
+    text-align: left;
+    letter-spacing: 5px;
+    font-size: 15px;
+    font-style: bold;
+
+}
+
+.mainText h2 {
+
+    color: #707070;
+    text-align: left;
+    letter-spacing: 5px;
+    font-weight: bolder;
+
+}
+
+.tutorialCards {
+
+    margin-top: 20px;
+    background: linear-gradient(to bottom, rgba(35, 33, 75, 1) 80%, white 20%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+
+.tutorialCards h1 {
+
+    color: white;
+    margin: 50px 0px;
+    font-size: 20px;
+    letter-spacing: 5px;
+
+}
+
+.tutorialCards .card {
+
+    box-shadow: 0 8px 6px -6px black;
+    border: 1px solid #c3c3c3;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.tutorialCards .card i {
+
+    color: rgba(35, 33, 75, 1);
+
+}
+
+.tutorialCards .card h4 {
+
+    margin: 20px 0px;
+    color: rgba(35, 33, 75, 1);
+    font-weight: bold;
+
+}
+
+.tutorialCards .card p {
+
+    margin: 20px 0px;
+    color: #707070;
+
+}
+
+.tutorialCards .cardsContainer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+footer {
+
+    margin-top: 50px;
+    background-color: rgba(35, 33, 75, 1);
+    color: white;
+    padding: 50px 0px;
+
+}
+
+footer #container1 {
+
+    flex-direction: row;
+
+}
+
+footer .footerColumns {
+
+    width: 25%;
+    
+    
+}
+
+footer .footerColumns img {
+
+    width: 140px;
+    height: 50px;
+
+}
+
+footer .footerColumns p {
+
+    margin-top: 20px;
+    font-size: 12px;
+
+}
+
+footer .footerColumns h3 {
+
+    font-size: 20px;
+
+}
+
+footer .footerColumns .whiteStrip {
+
+    border-top: 3px solid white;
+    margin: 5px 0px 30px 0px;
+    width: 20%;
+
+}
+
+footer .footerColumns i {
+
+    margin-right: 10px;
+    display: inline-block;
+    font-size: 15px;
+
+}
+
+footer .footerColumns h6 {
+
+    display: inline-block;
+    font-size: 12px;
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .tutorialCards {
+
+        display: none;
+
+    }
+
+    footer #container1, footer .footerColumns {
+
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+    
+    }
+
+    footer .footerColumns {
+
+        margin-top: 50px;
+
+    }
+
+    footer #lastNews {
+
+        display: none;
+
+    }
+
+    footer .footerColumns .whiteStrip {
+
+        width: 0%;
+    
+    }
+
+    #carouselExampleCaptions h5  {
+        display: none;
+    }
+    
 
 }

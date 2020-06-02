@@ -1,0 +1,410 @@
+/* Estilizações Globais */
+
+body, html {
+
+    margin: 0 auto;
+    height: 100%;
+    background-color: lightgray;
+
+}
+
+a { 
+
+    color: rgba(35, 33, 75, 1);
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+button i {
+
+    margin-right: 10px;
+    margin-left: -5px;
+
+}
+
+/* FIM - Estilizações Globais */
+
+/* Estilização Containers */
+
+.login {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.container {
+
+    width: 1200px;
+    height: 700px; 
+    background-color: white;
+    padding: 0;
+    
+}
+
+/* FIM - Estilização Containers */
+
+/* Estilização Container Esquerda */
+
+.imageLogin {
+
+    width: 60%;
+    background: url('../img/salvador.png') no-repeat rgba(35, 33, 75, 1);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+    background-blend-mode: multiply;
+    
+    height: 100%;
+    float: left;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+
+}
+
+.imageLogin img {
+
+    height: 200px;
+    width: 200px;
+
+}
+
+.textContainerLogin {
+
+    padding-top: 100px;
+    width: 70%;
+    text-align: center;
+    color: white;
+
+}
+
+/* FIM - Estilização Imagem Esquerda */
+
+/* Estilização Área Login */
+
+.formLogin {
+
+    width: 40%;
+    height: 100%;
+    float: right;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+
+}
+
+.formLogin form {
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    width: 70%;
+
+}
+
+.formLogin form input[type=submit], button {
+
+    margin-top: 30px;
+    background-color: rgba(35, 33, 75, 1);
+    border: 2px solid white;
+    width: 150px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s;
+    border-radius: 15px;
+    padding: 5px 0px;
+
+}
+
+.formLogin form input[type=submit]:hover, button:hover {
+
+    filter: brightness(150%);
+
+}
+
+.formLogin form p {
+
+    margin-top: 50px;
+
+}
+
+/* FIM - Estilização Área Login */
+
+/* Estilização Palavras com Traços Esq Dir */
+
+.linedWord {
+
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.linedWord::after, .linedWord::before {
+
+    display: inline-block;
+    content: "";
+    border-top: 1px solid black;
+    width: 40%;
+    
+    margin: 0 3px;
+    transform: translateY(-3px);
+
+}
+
+/* FIM - Estilização Palavras com Traços Esq Dir */
+
+/* Estilização Logo */
+
+#logoP img {
+
+    width: 150px;
+    height: 200px;
+
+}
+
+#logoW {
+
+    display: none;
+
+}
+
+/* FIM - Estilização Logo */
+
+/* Estilização Inputs */
+
+.inputContainer{
+
+    position:relative;
+    margin-top: 15px;
+    width: 100%;
+
+}
+
+.inputContainer label{
+
+	position: absolute;
+	top: 15px;
+	left: 0px;
+	font-size: 16px;
+	color: #c3c3c3;	
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.inputContainer input{ 
+
+    border: 0;
+    border-bottom: 1px solid #555;  
+    background: transparent;
+    width: 100%;
+    padding: 18px 0 5px 0;
+    font-size: 16px;
+    color:  rgba(35, 33, 75, 1);
+
+}
+
+.inputContainer i {
+
+    float: right;
+    margin-right: 6px;
+    margin-top: -25px;
+    color: #c3c3c3;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.inputContainer input:focus{ 
+
+    border: none;	
+    outline: none;
+    border-bottom: 1px solid rgba(35, 33, 75, 1);	
+
+}
+
+
+.inputContainer input:focus ~ i,
+.inputContainer input:valid ~ i {
+
+    color: rgba(35, 33, 75, 1);
+
+}
+
+.inputContainer input:focus ~ label,
+.inputContainer input:valid ~ label{
+
+    top: 0px;
+    font-size: 12px;
+    color: rgba(35, 33, 75, 1);
+	
+}
+
+/* FIM - Estilização Inputs */
+
+/* Login Facebook - Google */
+
+#facebook {
+
+    background-color: #177af2;
+
+}
+
+#gplus {
+
+    background-color: #e44c47;
+
+}
+
+/* FIM - Login Facebook - Google */
+
+/* Animação palavras */
+
+.wordsTypeWrite {
+
+    animation: caret 1s steps(1) infinite;
+    border-right: 1px solid #fff;
+    padding-right: 1px;
+
+}
+
+@keyframes caret {
+    50% {
+      border-color: transparent;
+    }
+}
+
+/* FIM - Animação palavras */
+
+@media only screen and (max-width: 990px) {
+
+    body {
+
+        height: auto;
+
+    }
+
+    .imageLogin {
+
+        display: none;
+
+    }
+
+    .container {
+
+        width: 100%;
+        height: inherit;
+
+    }
+
+    .formLogin {
+
+        width: 100%;
+
+    }
+
+    .formLogin {
+
+        text-align: center;
+        background: url('../img/salvador.png') rgba(35, 33, 75, 1);
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-blend-mode: multiply;
+
+    }
+
+    .formLogin form input[type=submit], button {
+
+        background-color: inherit;
+        border: 1px solid white;
+
+    }
+
+    .formLogin form input[type=submit]:nth-last-child(1) {
+
+        margin-bottom: 20px;
+
+    }
+
+    .linedWord {
+
+        color: white;
+
+    }
+
+    .linedWord::after, .linedWord::before {
+
+        border-top: 1px solid white;
+
+    }
+
+    .formLogin form p {
+
+        color: white;
+
+    }
+
+    a {
+
+        color: white;
+
+    }
+
+    #logoP {
+
+        display: none;
+
+    }
+
+    #logoW {
+
+        display: block;
+        margin-top: 20px;
+
+    }
+    
+    #logoW img {
+
+        width: 150px;
+        height: 200px;
+
+    }
+
+    .inputContainer input:focus ~ label,
+    .inputContainer input:valid ~ label{
+
+        top: 0px;
+        font-size: 12px;
+        color: white;
+        
+    }
+
+    .inputContainer input:focus{ 
+
+        border: none;	
+        outline: none;
+        border-bottom: 1px solid white;	
+    
+    }
+
+    .inputContainer input{ 
+
+        color: white;
+    
+    }
+    
+    .inputContainer input:focus ~ i,
+    .inputContainer input:valid ~ i {
+    
+        color: white;
+    
+    }
+
+}
