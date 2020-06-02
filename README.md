@@ -4,8 +4,9 @@
 
 Acesse: [https://luis-kuhn.github.io/Trinus/](https://luis-kuhn.github.io/Trinus/)
 
-
-
+<p align="center">
+  <img  src="https://github.com/Luis-kuhn/Trinus/blob/master/img/screencast-luis-kuhn.github.io-2020.06.01-22_44_46.gif?raw=true">
+</p>  
 
 
 
