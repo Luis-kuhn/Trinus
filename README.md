@@ -9,6 +9,8 @@
 
 Acesse: [https://bit.ly/TrinusViagens](https://luis-kuhn.github.io/Trinus/)
 
+Luis Augusto Kuhn  
+Thomas Ricardo Reinke
 
 
 ## Tecnologias Utilizadas
