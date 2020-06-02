@@ -7,7 +7,7 @@
   <img height="300px" widht="100px" src="https://github.com/Luis-kuhn/Trinus/blob/master/img/screencast-luis-kuhn.github.io-2020.06.01-22_44_46.gif?raw=true">
 </p>  
 
-Acesse: [https://luis-kuhn.github.io/Trinus/](https://luis-kuhn.github.io/Trinus/)
+Acesse: [https://bit.ly/TrinusViagens](https://luis-kuhn.github.io/Trinus/)
 
 
 
